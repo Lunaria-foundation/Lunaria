@@ -1,14 +1,35 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>Lunaria</title>
-  </head>
-  <body>
-    <h1>Lunaria project website.</h1>
-    <p>Welcome to the Lunaria project official website. Lunaria is a programming language focused on simplicity and elegance. The names resembles from Himemori Luna which is a virtual youtuber
-    from the company Hololive. Some modules names inspirate from her electone. A keyboard she plays during some streams.</p>
-    <div>
-      <a href="https://github.com/SakamataDenji/Lunaria" target="_blank">Lunaria's oficial repo</a>
-    </div>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lunaria Programming Language</title>
+  <style>
+    body { background: #111; color: #eee; font-family: monospace; padding: 2em; }
+    h1 { color: #aaffcc; }
+    pre { background: #222; padding: 1em; border-radius: 8px; }
+    .magic { color: #b0e0ff; }
+  </style>
+</head>
+<body>
+  <h1>🌙 Bienvenido a <span class="magic">Lunaria</span></h1>
+  <p>Un lenguaje de programación inspirado en grimorios, magia y alquimia digital.</p>
+
+  <h2>Ejemplo</h2>
+  <pre>
+define agenda::map := {
+  'Juan': 35,
+  'Alicia': 25
+};
+console.out("Edad de Juan:");
+console.out(agenda["Juan"]);
+  </pre>
+
+  <h2>Ejecuta</h2>
+  <p>Compila con:</p>
+  <pre>cargo run archivo.lna</pre>
+
+  <footer>
+    <p>🧙‍♂️ Proyecto creado con alma y código | <a href="https://github.com/lunaria-foundation/Lunaria" style="color: #99ddff;">Ver en GitHub</a></p>
+  </footer>
+</body>
 </html>
